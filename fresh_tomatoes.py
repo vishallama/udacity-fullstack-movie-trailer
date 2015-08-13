@@ -1,6 +1,10 @@
+# fresh_tomatoes.py
+
 import webbrowser
 import os
 import re
+
+__author__ = 'udacity'
 
 # Styles and scripting for the page
 main_page_head = '''
