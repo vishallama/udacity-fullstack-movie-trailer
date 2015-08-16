@@ -1,8 +1,6 @@
 # entertainment_center.py
 import media
 
-__author__ = 'vishal lama'
-
 city_lights = media.Movie(
     "City Lights",
     "A tramp falls in love with a beautiful blind girl. Her family is in "
