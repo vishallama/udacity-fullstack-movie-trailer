@@ -2,7 +2,7 @@
 import unittest
 from entertainment_center \
     import city_lights, shawshank_redemption, godfather, \
-        forrest_gump
+        forrest_gump, interstellar
 
 
 # Test: City Lights
@@ -25,7 +25,7 @@ class MovieTestCityLights(unittest.TestCase):
     def test_lead_actors_1(self):
         self.assertEqual("Charles Chaplin", city_lights.lead_actors[0])
 
-    def test_lead_actors_1(self):
+    def test_lead_actors_2(self):
         self.assertEqual("Hank Mann", city_lights.lead_actors[-1])
 
     def test_release_date(self):
@@ -132,6 +132,39 @@ class MovieTestForrestGump(unittest.TestCase):
             "Gary Sinise's lower legs were wrapped in a special blue fabric that "
             "allowed them to be digitally removed later.",
             forrest_gump.trivia[3])
+
+
+# Test: Interstellar
+class MovieTestInterstellar(unittest.TestCase):
+
+    def test_title(self):
+        self.assertEqual(
+            "Interstellar", interstellar.title)
+
+    def test_poster_image_url(self):
+        self.assertEqual(
+            "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+            interstellar.poster_image_url)
+
+    def test_trailer_youtube_url(self):
+        self.assertEqual(
+            "https://www.youtube.com/watch?v=2LqzF5WauAw",
+            interstellar.trailer_youtube_url)
+
+    def test_lead_actors_1(self):
+        self.assertEqual("Matthew McConaughey", interstellar.lead_actors[0])
+
+    def test_lead_actors_2(self):
+        self.assertEqual("Wes Bentley", interstellar.lead_actors[-1])
+
+    def test_release_date(self):
+        self.assertEqual("7 November 2014", interstellar.release_date)
+
+    def test_trivia(self):
+        self.assertEqual(
+            "On the first planet a single second would be about one and a half days in "
+            "earth time.",
+            interstellar.trivia[0])
 
 
 if __name__ == '__main__':
