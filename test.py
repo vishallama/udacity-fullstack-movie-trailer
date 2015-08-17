@@ -2,7 +2,7 @@
 import unittest
 from entertainment_center \
     import city_lights, shawshank_redemption, godfather, \
-        forrest_gump, interstellar
+        forrest_gump, interstellar, batman_begins
 
 
 # Test: City Lights
@@ -165,6 +165,38 @@ class MovieTestInterstellar(unittest.TestCase):
             "On the first planet a single second would be about one and a half days in "
             "earth time.",
             interstellar.trivia[0])
+
+
+# Test: Batman Begins
+class MovieTestBatmanBegins(unittest.TestCase):
+
+    def test_title(self):
+        self.assertEqual(
+            "Batman Begins", batman_begins.title)
+
+    def test_poster_image_url(self):
+        self.assertEqual(
+            "https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg",
+            batman_begins.poster_image_url)
+
+    def test_trailer_youtube_url(self):
+        self.assertEqual(
+            "https://www.youtube.com/watch?v=neY2xVmOfUM",
+            batman_begins.trailer_youtube_url)
+
+    def test_lead_actors_1(self):
+        self.assertEqual("Christian Bale", batman_begins.lead_actors[0])
+
+    def test_lead_actors_2(self):
+        self.assertEqual("Rutger Hauer", batman_begins.lead_actors[-1])
+
+    def test_release_date(self):
+        self.assertEqual("15 June 2005", batman_begins.release_date)
+
+    def test_trivia(self):
+        self.assertEqual(
+            "Josh Hartnett turned down the role of Bruce Wayne/Batman.",
+            batman_begins.trivia[0])
 
 
 if __name__ == '__main__':
