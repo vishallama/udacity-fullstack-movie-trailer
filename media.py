@@ -11,7 +11,7 @@ class Movie(object):
                  mpaa_rating,
                  language,
                  runtime,
-                 production_company,
+                 production_companies,
                  trivia
                  ):
         self.title = title
@@ -23,6 +23,6 @@ class Movie(object):
         self.mpaa_rating = mpaa_rating
         self.language = language
         self.runtime = runtime
-        self.production_company = production_company
+        self.production_companies = production_companies
         self.trivia = trivia
 
