@@ -156,3 +156,37 @@ interstellar = media.Movie(
      "fact that her astronaut suit was open while filming scenes in the icy water."]
 )
 
+batman_begins = media.Movie(
+    "Batman Begins",
+    "When his parents were killed, billionaire playboy Bruce Wayne relocates to "
+    "Asia when he is mentored by Henri Ducard and Ra's Al Ghul in how to fight evil. "
+    "When learning about the plan to wipe out evil in Gotham City by Ducard, Bruce "
+    "prevents this plan from getting any further and heads back to his home. Back "
+    "in his original surroundings, Bruce adopts the image of a bat to strike fear "
+    "into the criminals and the corrupt as the icon known as 'Batman'. But it doesn't "
+    "stay quiet for long.",
+    "https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg",
+    "https://www.youtube.com/watch?v=neY2xVmOfUM",
+    ["Christian Bale", "Michael Caine", "Liam Neeson", "Katie Holmes", "Gary Oldman",
+     "Cillian Murphy", "Morgan Freeman", "Tom Wilkinson", "Rutger Hauer"],
+    "15 June 2005",
+    "PG-13",
+    "English",
+    "140 min",
+    ["Warner Bros.", "Syncopy", "DC Comics", "Legendary Pictures",
+     "Patalex III Productions Limited"],
+    ["Josh Hartnett turned down the role of Bruce Wayne/Batman.",
+     "Christian Bale's active dislike of his uncomfortable Batman outfit helped "
+     "his performance as the Dark Knight as he was perpetually in a foul mood when "
+     "wearing it.",
+     "While shooting on the streets of Chicago, a person accidentally crashed into "
+     "the Batmobile. The driver was apparently drunk, and said he hit the car in a "
+     "state of panic, believing the Dark Knight's vehicle to be an invading alien "
+     "spacecraft.",
+     "Although Christian Bale performed many of his own stunts, he wasn't allowed "
+     "anywhere near the Batmobile.",
+     "When Christian Bale and Liam Neeson were fighting on the frozen lake they "
+     "could hear the ice cracking beneath their feet. The next day, the lake was "
+     "completely melted."]
+)
+
