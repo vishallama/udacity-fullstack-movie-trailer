@@ -117,3 +117,42 @@ forrest_gump = media.Movie(
      "Bill Murray, John Travolta and Chevy Chase turned down the role of Forrest "
      "Gump. Travolta later admitted that passing on the role was a mistake."]
 )
+
+interstellar = media.Movie(
+    "Interstellar",
+    "In the near future, Earth has been devastated by drought and famine, "
+    "causing a scarcity in food and extreme changes in climate. When humanity "
+    "is facing extinction, a mysterious rip in the space-time continuum is "
+    "discovered, giving mankind the opportunity to widen its lifespan. A group "
+    "of explorers must travel beyond our solar system in search of a planet "
+    "that can sustain life. The crew of the Endurance are required to think "
+    "bigger and go further than any human in history as they embark on an "
+    "interstellar voyage into the unknown. Coop, the pilot of the Endurance, "
+    "must decide between seeing his children again and the future of the human race.",
+    "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+    "https://www.youtube.com/watch?v=2LqzF5WauAw",
+    ["Matthew McConaughey", "Mackenzie Foy", "John Lithgow", "Anne Hathaway",
+     "Michael Caine", "Matt Damon", "Casey Affleck", "Wes Bentley"],
+    "7 November 2014",
+    "PG-13",
+    "English",
+    "169 min",
+    ["Paramount Pictures", "Warner Bros.", "Legendary Pictures",
+     "Lynda Obst Productions", "Syncopy"],
+    ["On the first planet a single second would be about one and a half days in "
+     "earth time.",
+     "For a cornfield scene, Christopher Nolan sought to grow 500 acres of corn, "
+     "which he learned was feasible from his producing of Man of Steel (2013). "
+     "The corn was then sold and actually made a profit.",
+     "The method of space travel in this film was based on physicist Kip Thorne's "
+     "works, which were also the basis for the method of space travel in Carl "
+     "Sagan's novel \"Contact\", and the resulting film adaptation, Contact (1997). "
+     "Matthew McConaughey stars in both films.",
+     "The majority of shots of the robot TARS were not computer generated. Rather "
+     "TARS was a practical puppet controlled and voiced on set by Bill Irwin who "
+     "was then digitally erased from the film. Irwin also puppeteered the robot CASE, "
+     "but in that instance had his voice dubbed over by Josh Stewart.",
+     "Anne Hathaway suffered from hypothermia while filming in Iceland due to the "
+     "fact that her astronaut suit was open while filming scenes in the icy water."]
+)
+
