@@ -1,10 +1,11 @@
 # test.py
 import unittest
-from entertainment_center import city_lights
+from entertainment_center \
+    import city_lights, shawshank_redemption
 
 
 # Test: City Lights
-class MovieTest(unittest.TestCase):
+class MovieTestCityLights(unittest.TestCase):
 
     def test_title(self):
         self.assertEqual(
@@ -32,7 +33,39 @@ class MovieTest(unittest.TestCase):
     def test_trivia(self):
         self.assertEqual(
             "Charles Chaplin's personal favorite of all his films.",
-        city_lights.trivia[1])
+            city_lights.trivia[1])
+
+
+# Test: The Shawshank Redemption
+class MovieTestShawshankRedemption(unittest.TestCase):
+
+    def test_title(self):
+        self.assertEqual(
+            "The Shawshank Redemption", shawshank_redemption.title)
+
+    def test_poster_image_url(self):
+        self.assertEqual(
+            "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+            shawshank_redemption.poster_image_url)
+
+    def test_trailer_youtube_url(self):
+        self.assertEqual(
+            "https://www.youtube.com/watch?v=6hB3S9bIaco",
+            shawshank_redemption.trailer_youtube_url)
+
+    def test_lead_actors_charles_chaplin(self):
+        self.assertEqual("Tim Robbins", shawshank_redemption.lead_actors[0])
+
+    def test_lead_actors_hank_mann(self):
+        self.assertEqual("James Whitmore", shawshank_redemption.lead_actors[-1])
+
+    def test_release_date(self):
+        self.assertEqual("14 October 1994", shawshank_redemption.release_date)
+
+    def test_trivia(self):
+        self.assertEqual(
+            "Morgan Freeman's favorite film of his own.",
+            shawshank_redemption.trivia[0])
 
 
 if __name__ == '__main__':

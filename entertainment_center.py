@@ -8,10 +8,8 @@ city_lights = media.Movie(
     "man allows him to be the girl's benefactor and suitor.",
     "https://upload.wikimedia.org/wikipedia/en/f/f2/City_Lights_film.jpg",
     "https://www.youtube.com/watch?v=b2NTUnujk1I",
-    ["Charles Chaplin", "Virginia Cherrill",
-     "Florence Lee", "Harry Myers",
-     "Al Ernest Garcia", "Hank Mann"
-    ],
+    ["Charles Chaplin", "Virginia Cherrill", "Florence Lee", "Harry Myers",
+     "Al Ernest Garcia", "Hank Mann"],
     "7 March 1931",
     "G",
     "English",
@@ -26,6 +24,32 @@ city_lights = media.Movie(
      "In 2008, this film was voted #1 on AFI's list over the ten best "
      "romantic comedies of all time.",
      "Virginia Cherrill was cast on a whim when Charles Chaplin spotted "
-     "her at a boxing match."
-     ]
+     "her at a boxing match." ]
    )
+
+shawshank_redemption = media.Movie(
+    "The Shawshank Redemption",
+    "Two imprisoned men bond over a number of years, finding solace and "
+    "eventual redemption through acts of common decency.",
+    "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+    "https://www.youtube.com/watch?v=6hB3S9bIaco",
+    ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler",
+     "Clancy Brown", "Gill Bellows", "Mark Rolston", "James Whitmore"],
+    "14 October 1994",
+    "R",
+    "English",
+    "142 min",
+    "Castle Rock Entertainment",
+    ["Morgan Freeman's favorite film of his own.",
+     "Although a very modest hit in theaters, it became one of the highest "
+     "grossing video rentals of all time.",
+     "Kevin Costner turned down the role of Andy Dufresne, a decision he "
+     "strongly regretted later on.",
+     "The role of Andy Dufresne was originally offered to Tom Hanks, who "
+     "couldn't accept due to scheduling conflicts with Forrest Gump (1994). "
+     "Hanks did, however, work on Frank Darabont's next film, The Green Mile "
+     "(1999).",
+     "To prepare for his role as Andy Dufresne, Tim Robbins actually spent "
+     "some time in solitary confinement."]
+
+)
