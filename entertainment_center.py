@@ -84,3 +84,36 @@ godfather = media.Movie(
      "before the film was even finished filming.",
      "According to Francis Ford Coppola, the film took 62 days to shoot."]
 )
+
+forrest_gump = media.Movie(
+    "Forrest Gump",
+    "Forrest Gump is a simple man with a low I.Q. but good intentions. He is "
+    "running through childhood with his best and only friend Jenny. His 'mama' "
+    "teaches him the ways of life and leaves him to choose his destiny. "
+    "Forrest joins the army for service in Vietnam, finding new friends called "
+    "Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, "
+    "inspires people to jog, starts a ping-pong craze, create the smiley, write "
+    "bumper stickers and songs, donating to people and meeting the president "
+    "several times. However, this is all irrelevant to Forrest who can only "
+    "think of his childhood sweetheart Jenny Curran. Who has messed up her life. "
+    "Although in the end all he wants to prove is that anyone can love anyone.",
+    "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+    "https://www.youtube.com/watch?v=bLvqoHBptjg",
+    ["Tom Hanks", "Sally Field", "Jenny Curran", "Mykelti Williamson",
+     "Gary Sinese", "Rebecca Williams"],
+    "6 July 1994",
+    "PG-13",
+    "English",
+    "142 min",
+    ["Paramount Pictures"],
+    ["With every transition of Forrest's age, one thing remains the same - in "
+     "the first scene of each transition he wears a blue plaid shirt.",
+     "Tom Hanks wasn't paid for the film. Instead he took percentage points "
+     "which ultimately netted him in the region of $40 million.",
+     "Tom Hanks' younger brother Jim Hanks doubled for him in many of his "
+     "numerous running sequences.",
+     "Gary Sinise's lower legs were wrapped in a special blue fabric that "
+     "allowed them to be digitally removed later.",
+     "Bill Murray, John Travolta and Chevy Chase turned down the role of Forrest "
+     "Gump. Travolta later admitted that passing on the role was a mistake."]
+)
