@@ -3,6 +3,8 @@
 import webbrowser
 import os
 import re
+import entertainment_center
+
 
 # Styles and scripting for the page
 main_page_head = '''
@@ -113,7 +115,9 @@ main_page_content = '''
       </div>
     </div>
     <div class="container">
-      {movie_tiles}
+      <div class="row">
+        {movie_tiles}
+      </div>
     </div>
   </body>
 </html>
@@ -121,11 +125,13 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+<div class="col-md-6 col-lg-4 movie-tile text-center"
+    data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
 </div>
 '''
+
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
@@ -144,6 +150,7 @@ def create_movie_tiles_content(movies):
         )
     return content
 
+
 def open_movies_page(movies):
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
@@ -157,4 +164,13 @@ def open_movies_page(movies):
 
     # open the output file in the browser
     url = os.path.abspath(output_file.name)
-    webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
+    webbrowser.open('file://' + url, new=2)     # open in a new tab, if possible
+
+
+def main():
+    open_movies_page(entertainment_center.movies)
+
+
+if __name__ == "__main__":
+    main()
+
