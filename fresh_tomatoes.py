@@ -15,6 +15,10 @@ main_page_head = '''
     <meta name="keywords" content="Vishal Lama, Udacity, Movie Trailers">
     <title>Fresh Tomatoes!</title>
 
+    <!-- Custom social media icons -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
@@ -46,6 +50,9 @@ main_page_head = '''
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
+            /* css effects */
+            transform: scale(1.05);
+            transition: all 0.5s ease 0s;
         }
         .scale-media {
             padding-bottom: 56.25%;
@@ -120,6 +127,11 @@ main_page_content = '''
     <div class="container">
       <div class="row">
         {movie_tiles}
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-xs-12 text-center">
+         <h4>&copy; 2015 Vishal Lama</h4>
       </div>
     </div>
   </body>
