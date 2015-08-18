@@ -28,35 +28,6 @@ city_lights = media.Movie(
      "her at a boxing match."]
 )
 
-shawshank_redemption = media.Movie(
-    "The Shawshank Redemption",
-    "Andy Dufresne is a young and successful banker whose life changes "
-    "drastically when he is convicted and sentenced to life imprisonment "
-    "for the murder of his wife and her lover. Set in the 1940s, the "
-    "film shows how Andy, with the help of his friend Red, the prison "
-    "entrepreneur, turns out to be a most unconventional prisoner. ",
-    "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
-    "https://www.youtube.com/watch?v=6hB3S9bIaco",
-    ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler",
-     "Clancy Brown", "Gill Bellows", "Mark Rolston", "James Whitmore"],
-    "14 October 1994",
-    "R",
-    "English",
-    "142 min",
-    ["Castle Rock Entertainment"],
-    ["Morgan Freeman's favorite film of his own.",
-     "Although a very modest hit in theaters, it became one of the highest "
-     "grossing video rentals of all time.",
-     "Kevin Costner turned down the role of Andy Dufresne, a decision he "
-     "strongly regretted later on.",
-     "The role of Andy Dufresne was originally offered to Tom Hanks, who "
-     "couldn't accept due to scheduling conflicts with Forrest Gump (1994). "
-     "Hanks did, however, work on Frank Darabont's next film, The Green Mile "
-     "(1999).",
-     "To prepare for his role as Andy Dufresne, Tim Robbins actually spent "
-     "some time in solitary confinement."]
-)
-
 godfather = media.Movie(
     "The Godfather",
     "When the aging head of a famous crime family decides to transfer his "
@@ -131,7 +102,7 @@ interstellar = media.Movie(
     "interstellar voyage into the unknown. Coop, the pilot of the Endurance, "
     "must decide between seeing his children again and the future of the human race.",
     "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
-    "https://www.youtube.com/watch?v=2LqzF5WauAw",
+    "https://www.youtube.com/watch?v=Lm8p5rlrSkY",
     ["Matthew McConaughey", "Mackenzie Foy", "John Lithgow", "Anne Hathaway",
      "Michael Caine", "Matt Damon", "Casey Affleck", "Wes Bentley"],
     "7 November 2014",
@@ -191,5 +162,42 @@ batman_begins = media.Movie(
      "completely melted."]
 )
 
-movies = [city_lights, shawshank_redemption, godfather,
-          forrest_gump, interstellar, batman_begins]
+modern_times = media.Movie(
+    "Modern Times",
+    "Chaplins last 'silent' film, filled with sound effects, was made when "
+    "everyone else was making talkies. Charlie turns against modern society, "
+    "the machine age, (The use of sound in films ?) and progress. Firstly we "
+    "see him frantically trying to keep up with a production line, tightening "
+    "bolts. He is selected for an experiment with an automatic feeding machine, "
+    "but various mishaps leads his boss to believe he has gone mad, and Charlie "
+    "is sent to a mental hospital... When he gets out, he is mistaken for a "
+    "communist while waving a red flag, sent to jail, foils a jailbreak, and "
+    "is let out again. We follow Charlie through many more escapades before "
+    "the film is out. ",
+    "https://upload.wikimedia.org/wikipedia/en/6/6e/Moderntimes.jpg",
+    "https://www.youtube.com/watch?v=GLeDdzGUTq0",
+    ["Charles Chaplin", "Paulette Goddard", "Henry Bergman", "Tiny Sandford",
+     "Chester Conklin", "Hank Mann", "Stanley Blystone", "Al Ernest Garcia"],
+    "25 February 1936",
+    "G",
+    "English",
+    "142 min",
+    ["Charles Chaplin Productions"],
+    ["Another inspiration for the film was a conversation that Charles Chaplin "
+     "had with Mohandas K. Gandhi who complained about how machines were "
+     "taking over.",
+     "A screening of the film closed out the 2003 Cannes Film Festival. A high "
+     "point of the festival, an empty seat was illuminated by a spotlight to "
+     "honor Charles Chaplin.",
+     "This was one of the films which, because of its political sentiments, "
+     "convinced the House Un-American Activities Committee that Charles "
+     "Chaplin was a Communist, a charge he adamantly denied.",
+     "The working title was \"The Masses\".",
+     "The film is a comment on the increasing industrialization of modern "
+     "living, something that Charles Chaplin felt exacerbated the grim employment "
+     "and fiscal conditions of the Depression era."]
+)
+
+movies = [city_lights, godfather, forrest_gump,
+          interstellar, batman_begins, modern_times]
+
