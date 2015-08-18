@@ -26,10 +26,10 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            padding: 80px 0 0 0;
         }
         #trailer .modal-dialog {
-            margin-top: 200px;
+            margin: 200px 0 0 0;
             width: 640px;
             height: 480px;
         }
@@ -44,8 +44,8 @@ main_page_head = '''
             height: 100%;
         }
         .movie-tile {
-            margin-bottom: 20px;
-            padding-top: 20px;
+            margin: 0 0 0 20px;
+            padding: 20px 0 0 0;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -69,6 +69,7 @@ main_page_head = '''
         }
         footer {
             padding: 50px;
+            background: #288;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
