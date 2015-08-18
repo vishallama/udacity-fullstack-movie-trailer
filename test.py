@@ -1,8 +1,7 @@
 # test.py
 import unittest
-from entertainment_center \
-    import city_lights, godfather, forrest_gump, \
-    interstellar, batman_begins, modern_times
+from entertainment_center import (city_lights, godfather, forrest_gump,
+                                  interstellar, batman_begins, modern_times)
 
 
 # Test: City Lights
