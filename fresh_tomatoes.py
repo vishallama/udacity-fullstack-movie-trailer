@@ -129,11 +129,13 @@ main_page_content = '''
         {movie_tiles}
       </div>
     </div>
-    <div class="container">
-      <div class="col-xs-12 text-center">
-         <h4>&copy; 2015 Vishal Lama</h4>
+    <footer>
+      <div class="container">
+        <div class="col-xs-12 text-center">
+          <h4>&copy; 2015 Vishal Lama</h4>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
 '''
