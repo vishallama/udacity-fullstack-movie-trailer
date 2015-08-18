@@ -1,8 +1,8 @@
 # test.py
 import unittest
 from entertainment_center \
-    import city_lights, shawshank_redemption, godfather, \
-        forrest_gump, interstellar, batman_begins
+    import city_lights, godfather, forrest_gump, \
+    interstellar, batman_begins, modern_times
 
 
 # Test: City Lights
@@ -35,38 +35,6 @@ class MovieTestCityLights(unittest.TestCase):
         self.assertEqual(
             "Charles Chaplin's personal favorite of all his films.",
             city_lights.trivia[1])
-
-
-# Test: The Shawshank Redemption
-class MovieTestShawshankRedemption(unittest.TestCase):
-
-    def test_title(self):
-        self.assertEqual(
-            "The Shawshank Redemption", shawshank_redemption.title)
-
-    def test_poster_image_url(self):
-        self.assertEqual(
-            "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
-            shawshank_redemption.poster_image_url)
-
-    def test_trailer_youtube_url(self):
-        self.assertEqual(
-            "https://www.youtube.com/watch?v=6hB3S9bIaco",
-            shawshank_redemption.trailer_youtube_url)
-
-    def test_lead_actors_1(self):
-        self.assertEqual("Tim Robbins", shawshank_redemption.lead_actors[0])
-
-    def test_lead_actors_2(self):
-        self.assertEqual("James Whitmore", shawshank_redemption.lead_actors[-1])
-
-    def test_release_date(self):
-        self.assertEqual("14 October 1994", shawshank_redemption.release_date)
-
-    def test_trivia(self):
-        self.assertEqual(
-            "Morgan Freeman's favorite film of his own.",
-            shawshank_redemption.trivia[0])
 
 
 # Test: The Godfather
@@ -148,7 +116,7 @@ class MovieTestInterstellar(unittest.TestCase):
 
     def test_trailer_youtube_url(self):
         self.assertEqual(
-            "https://www.youtube.com/watch?v=2LqzF5WauAw",
+            "https://www.youtube.com/watch?v=Lm8p5rlrSkY",
             interstellar.trailer_youtube_url)
 
     def test_lead_actors_1(self):
@@ -197,6 +165,38 @@ class MovieTestBatmanBegins(unittest.TestCase):
         self.assertEqual(
             "Josh Hartnett turned down the role of Bruce Wayne/Batman.",
             batman_begins.trivia[0])
+
+
+# Test: Modern Times
+class MovieTestModernTimes(unittest.TestCase):
+
+    def test_title(self):
+        self.assertEqual(
+            "Modern Times", modern_times.title)
+
+    def test_poster_image_url(self):
+        self.assertEqual(
+            "https://upload.wikimedia.org/wikipedia/en/6/6e/Moderntimes.jpg",
+            modern_times.poster_image_url)
+
+    def test_trailer_youtube_url(self):
+        self.assertEqual(
+            "https://www.youtube.com/watch?v=GLeDdzGUTq0",
+            modern_times.trailer_youtube_url)
+
+    def test_lead_actors_1(self):
+        self.assertEqual("Charles Chaplin", modern_times.lead_actors[0])
+
+    def test_lead_actors_2(self):
+        self.assertEqual("Al Ernest Garcia", modern_times.lead_actors[-1])
+
+    def test_release_date(self):
+        self.assertEqual("25 February 1936", modern_times.release_date)
+
+    def test_trivia(self):
+        self.assertEqual(
+            "The working title was \"The Masses\".",
+            modern_times.trivia[3])
 
 
 if __name__ == '__main__':
