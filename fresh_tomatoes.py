@@ -10,6 +10,9 @@ import entertainment_center
 main_page_head = '''
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Vishal Lama, Udacity, Movie Trailers">
     <title>Fresh Tomatoes!</title>
 
     <!-- Bootstrap 3 -->
