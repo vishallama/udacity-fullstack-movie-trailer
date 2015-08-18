@@ -135,7 +135,7 @@ main_page_content = '''
     <footer>
       <div class="container">
         <div class="col-xs-12 text-center">
-          <h4>&copy; 2015 Vishal Lama</h4>
+          <h4>&copy; 2015 Fresh Tomatoes!</h4>
         </div>
       </div>
     </footer>
