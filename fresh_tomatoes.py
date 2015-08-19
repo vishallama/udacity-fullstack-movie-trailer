@@ -140,9 +140,11 @@ main_page_content = '''
 </div>
 <div class="clearfix visible-sm-block"></div>
 <footer>
+  <div class="row">
     <div class="col-sm-12 text-center">
       <h4>&copy; 2015 Fresh Tomatoes!</h4>
     </div>
+  </div>
 </footer>
 </body>
 '''
@@ -195,10 +197,6 @@ def open_movies_page(movies):
     webbrowser.open('file://' + url, new=2)     # open in a new tab, if possible
 
 
-def main():
-    open_movies_page(entertainment_center.movies)
-
-
 if __name__ == "__main__":
-    main()
+    open_movies_page(entertainment_center.movies)
 
