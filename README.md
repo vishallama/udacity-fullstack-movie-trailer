@@ -1,17 +1,17 @@
 # Movie Trailer Website
 
-Movie Trailer Website is a one-page responsive website that displays movie and related information as well as runs trailers for a few selected movies.
+Movie Trailer Website is a one-page responsive website that displays movie and related information and which can run trailers for some selected movies.
 
 The code and documentation is provided as part of the submission requirements for Project 1 in the Udacity Full Stack Web Developer Nanodegree program.
 
 ## Table of Contents
 
-* [Quick start](#quickstart "Quick start")
+* [Quickstart](#quickstart "Quick start")
 * [Software Requirements](#software-requirements " Software Requirements")
 * [License](#license "License")
 * [Creator](#creator "Creator")
 
-## Quick start
+## Quickstart
 
 Download the project folder by clicking on the "Download ZIP" button on the right side of this page, or you can download it directly by clicking [here](https://github.com/vishallama/udacity-fullstack-movie-trailer/archive/master.zip "Movie Trailer Website").
 
