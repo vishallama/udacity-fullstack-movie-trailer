@@ -2,7 +2,7 @@
 
 
 class Movie(object):
-    """ Movie class for creating a movie """
+    """ Movie class for creating a movie."""
     def __init__(self,
                  title,
                  storyline,
