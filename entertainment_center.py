@@ -1,5 +1,4 @@
 # entertainment_center.py
-import fresh_tomatoes
 import media
 
 city_lights = media.Movie(
@@ -199,6 +198,5 @@ modern_times = media.Movie(
 )
 
 movies = [city_lights, godfather, forrest_gump,
-          interstellar]
-#, batman_begins, modern_times]
+          interstellar, batman_begins, modern_times]
 
